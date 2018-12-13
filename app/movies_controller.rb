@@ -14,12 +14,13 @@ end
 def can_be_created_with_a_hash_of_attributes
   # Initialize movie and then and save it
   attributes = {
-      title: "The Sting",
-      release_date: 1973,
-      director: "George Roy Hill",
-      lead: "Paul Newman",
-      in_theaters: false
+    title: "The Sting",
+    release_date: 1973,
+    director: "George Roy Hill",
+    lead: "Paul Newman",
+    in_theaters: false
   }
+
   movie = __
 end
 
@@ -39,7 +40,7 @@ def can_get_the_last_item_in_the_database
   __
 end
 
-def can_get_size_of_the_database
+def can_get_length_of_the_movie_table
   __
 end
 
