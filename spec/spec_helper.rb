@@ -9,7 +9,6 @@ if ActiveRecord::Base.connection.migration_context.needs_migration?
 end
 
 RSpec.configure do |config|
-
   config.include Rack::Test::Methods
   DatabaseCleaner.strategy = :truncation
 
